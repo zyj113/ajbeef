@@ -1,0 +1,65 @@
+/* pages/templet/footer.wxss */
+.footer{
+  width:100%;
+  height:56px;
+  position:fixed;
+  bottom:0;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  border-top:1px solid #eee;
+  padding-top:4px;
+}
+
+.footer navigator{
+  width:30%;
+}
+
+.foot-b{
+  width:100%;  
+  display: flex;
+  flex-flow: column;
+}
+
+.foot-b-hb{
+  width:40%;  
+  display: flex;
+  position: absolute;
+  left:30%;
+}
+
+.foot-b .icon{
+  width:100%;
+  height:40px;
+  text-align:center;
+}
+
+.foot-b-hb .icon-hb{
+  position: relative;
+  width:100%;
+}
+
+.foot-b-hb .icon-img-hb{
+  width:64px;
+  height:64px;
+  position: absolute;
+  top:-20px;
+  left:50%;
+  margin-left:-32px;
+}
+
+.foot-b .icon-img{
+  width:32px;
+  height:32px;
+}
+
+.foot-b .tit{
+  width:100%;
+  height:20px;
+  line-height:20px;
+  text-align:center;
+}
+
+.foot-b .tit-on{
+  color:#ea3433;
+}

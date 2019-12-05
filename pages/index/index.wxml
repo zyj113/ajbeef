@@ -1,0 +1,31 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-section page-section-spacing swiper">
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item {{item}}"></view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    </view>
+    </view>
+
+<view class="lhb" bindtap="showDialogBtn"><image src="/images/lhb.png" ></image></view>
+<button class='zx' open-type='contact'><image  src="/images/zx.png"></image></button>
+<!--自定义模拟弹窗-->
+<view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modal-dialog" wx:if="{{showModal}}">
+  <view class="modal-title">领取红包</view>
+  <view class="modal-content">
+    <view class="modal-input">
+      <input placeholder-class="input-holder" type="number" maxlength="11" bindinput="inputChange" class="input" placeholder="请输入手机号"></input>
+    </view>
+  </view>
+  <view class="modal-footer">
+    <view class="btn-cancel" bindtap="onCancel" data-status="cancel">关闭</view>
+    <view class="btn-confirm" bindtap="onConfirm" data-status="confirm">确认领取</view>
+  </view>
+</view>

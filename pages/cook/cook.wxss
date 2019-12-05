@@ -1,0 +1,37 @@
+/* pages/cook/cook.wxss */
+.main{
+  padding:10px;
+}
+
+.page-section-title{
+  margin-top:10px;
+}
+
+.page-section-title text{
+  font-size:18px;
+  color:#333;
+  font-weight: bold;
+}
+
+.flex-wrp .flex-item{
+  color:#888;
+  margin:5px 0px;
+}
+
+.flex-wrp .flex-item .tit{
+  color:#ea3433;
+  
+}
+
+.tip{
+  color:#ea3433;
+  font-size:24rpx;
+}
+
+.tip-color{
+  color:#999;
+}
+
+.desp{
+  color:#666;
+}

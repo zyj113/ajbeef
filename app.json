@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home",
+    "pages/cook/cook",
+    "pages/hb/hb",
+    "pages/templet/footer"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#231915",
+    "navigationBarTitleText": "西兰澳佳",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#444",
+    "selectedColor": "#ea3433",
+    "backgroundColor": "#f8f8f8",
+    "borderStyle": "black",
+    "list": [
+      {        
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home_on.png",
+        "text":"首页"
+      },
+      {
+        "pagePath": "pages/cook/cook",
+        "iconPath": "/images/cook.png",
+        "selectedIconPath": "/images/cook_on.png",
+        "text": "烹饪"
+      }
+      
+    ]
+  },
+  "usingComponents": {},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
