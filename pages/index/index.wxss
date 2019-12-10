@@ -1,4 +1,12 @@
 /**index.wxss**/
+.container1{
+  width:100%; 
+} 
+
+.container1 image{
+  width:100%;
+}
+
 .lhb{
   width:54px;height:54px;
   position: fixed;
