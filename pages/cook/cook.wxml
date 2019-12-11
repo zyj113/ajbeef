@@ -3,12 +3,10 @@
      <view class="tip">
       温馨提示：患感染性疾病，肝病、肾病、疮疥湿疹、痘痧、瘙痒者慎用，高胆固醇、高脂肪老年人、儿童、消化能力弱者少吃
       </view>
-      <view class="tip tip-color" style="margin-top:10px;">
-      以下做法仅供参考、具体情况可以根据个人喜好而定。
-      </view>
+
   <view class="page-section">
       <view class="page-section-title">
-        <text>菲力牛排</text>
+        <text>牛排做法</text><text style="font-size:24rpx;color:#888;">（ 仅供参考）</text>
       </view>
       <view class="desp">
       辅料：口蘑、花瓜、生菜、鸡蛋
@@ -16,21 +14,19 @@
       <view class="desp">
       调料：盐、黑胡椒、橄榄油、番茄沙司
       </view>
-      <view class="flex-wrp" style="flex-direction:column;">
-        <view class="flex-item ">1.冷冻牛排取出回温至软，放上黑椒粉和盐腌制10到15分钟。然后将口蘑洗净去蒂，切片，西红柿，黄瓜和生菜分别洗，西红柿切片，黄瓜切片，生菜切丝</view>
-        <view class="flex-item ">2.煮锅烧开水，放入1茶匙盐，拌入少许橄榄油备用</view>
-        <view class="flex-item ">3.平底锅中倒入适量橄榄油，烧热后放入口蘑片，中火煎至两面上色，将口蘑拨拉到锅边，放入牛排，两面各煎一分钟，将黑椒汁调料挤在牛肉和口蘑上</view>
-        <view  class="flex-item ">4.将牛排拨到一边，打入鸡蛋，煎至两面金黄(煎蛋的时间将牛排翻面使酱汁粘裹均匀，并拌匀口蘑和酱汁)，将蛋翻面后，关火，用余热将蛋烘熟，喜好鸡蛋生点的可以不翻面。
+      <view class="flex-wrp" style="flex-direction:column;box-shadow:0px 0px 3px #ccc;padding:10px;">
+        <view class="flex-item ">1. 冷冻牛排取出回温至软，放上黑椒粉和盐腌制10到15分钟。然后将口蘑洗净去蒂，切片，西红柿，黄瓜和生菜分别洗，西红柿切片，黄瓜切片，生菜切丝</view>
+        <view class="flex-item ">2. 煮锅烧开水，放入1茶匙盐，拌入少许橄榄油备用</view>
+        <view class="flex-item ">3. 平底锅中倒入适量橄榄油，烧热后放入口蘑片，中火煎至两面上色，将口蘑拨拉到锅边，放入牛排，两面各煎一分钟，将黑椒汁调料挤在牛肉和口蘑上</view>
+        <view  class="flex-item ">4. 将牛排拨到一边，打入鸡蛋，煎至两面金黄(煎蛋的时间将牛排翻面使酱汁粘裹均匀，并拌匀口蘑和酱汁)，将蛋翻面后，关火，用余热将蛋烘熟，喜好鸡蛋生点的可以不翻面。
         </view>
-        <view class="flex-item ">5.将盘子里摆入牛排和煎蛋，在四周放上口蘑、生菜、西红柿和黄瓜片。</view>
+        <view class="flex-item ">5. 将盘子里摆入牛排和煎蛋，在四周放上口蘑、生菜、西红柿和黄瓜片。</view>
       </view>
     </view>
 
    <!-- 西冷 -->
-   <view class="page-section">
-      <view class="page-section-title">
-        <text>西冷、板腱牛排</text>
-      </view>
+   <view class="page-section" style="margin-top:30rpx;">
+     
       <view class="flex-wrp" style="flex-direction:column;">
         <view class="flex-item "><text class="tit">半熟做法：</text>首先西冷和板腱有一根细筋，有嚼劲，每一面煎1到2分钟，血水流出表面变黄有些许焦褐感即可 。其他步骤请参考菲力牛排做法。</view>
         <view class="flex-item "><text class="tit">全熟做法：</text>如需全熟则需要煎3到4分钟。其他步骤请参考菲力牛排做法。</view>
@@ -40,4 +36,8 @@
     </view>
 
 
+</view>
+<view style="padding:10px;font-size:18px;font-weight:bold;margin-bottom:10px;">欧洲厨师正宗煎牛排方法</view>
+<view class="section sp">
+  <video id="myVideo" src="https://www.aj-beef.com/videos/steak_cook1.mp4"  controls></video>
 </view>

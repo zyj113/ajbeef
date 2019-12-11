@@ -105,6 +105,13 @@ Page({
         inputPhone:phone
       })  
 
+  },
+  onShareAppMessage: function () {
+    return {
+      title: '西兰澳佳-进口原切牛排',
+      desc: '新用户可领最高50元红包，使用无门槛'
+    }
+
   }
 
 })

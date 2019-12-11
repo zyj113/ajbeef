@@ -9,13 +9,13 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#231915",
+    "navigationBarBackgroundColor": "#0d0d0d",
     "navigationBarTitleText": "西兰澳佳",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "color": "#444",
-    "selectedColor": "#ea3433",
+    "selectedColor": "#e93332",
     "backgroundColor": "#f8f8f8",
     "borderStyle": "black",
     "list": [
