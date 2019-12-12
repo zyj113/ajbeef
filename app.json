@@ -1,10 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/home/home",
     "pages/cook/cook",
-    "pages/hb/hb",
+    "pages/home/contact",        
+    "pages/logs/logs",
+    "pages/home/home", 
     "pages/templet/footer"
   ],
   "window": {
@@ -30,6 +30,12 @@
         "iconPath": "/images/cook.png",
         "selectedIconPath": "/images/cook_on.png",
         "text": "烹饪"
+      },
+      {
+        "pagePath": "pages/home/contact",
+        "iconPath": "/images/contact.png",
+        "selectedIconPath": "/images/contact_on.png",
+        "text": "联系我们"
       }
       
     ]

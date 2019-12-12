@@ -1,0 +1,7 @@
+/* pages/home/contact.wxss */
+.container1{
+  width:100%; 
+} 
+.container1 image{
+  width:100%;
+}

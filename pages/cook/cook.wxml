@@ -4,6 +4,21 @@
       温馨提示：患感染性疾病，肝病、肾病、疮疥湿疹、痘痧、瘙痒者慎用，高胆固醇、高脂肪老年人、儿童、消化能力弱者少吃
       </view>
 
+    <view class="page-section">
+      <view class="page-section-title">
+        <text>牛排解冻</text>
+      </view>
+      <view class="flex-wrp" style="flex-direction:column;box-shadow:0px 0px 3px #ccc;padding:10px;">
+       
+      <view class="flex-item ">
+      把冷冻的肉类，先放在室内几小时，然后再使用，也可以把冻肉放在冰箱冷藏室内数小时，而后再取出使用。
+      </view>
+      <view class="flex-item ">科学的解冻方法是将速冻牛排放在冷水中浸泡或放在4℃～8℃的地方，使其自然解冻。</view>      
+       
+      </view>
+
+    </view>
+
   <view class="page-section">
       <view class="page-section-title">
         <text>牛排做法</text><text style="font-size:24rpx;color:#888;">（ 仅供参考）</text>
@@ -37,7 +52,7 @@
 
 
 </view>
-<view style="padding:10px;font-size:18px;font-weight:bold;margin-bottom:10px;">欧洲厨师正宗煎牛排方法</view>
+<view style="padding:10px;font-size:18px;font-weight:bold;color:#e6aa86;margin-bottom:10px;">欧洲厨师正宗煎牛排方法</view>
 <view class="section sp">
   <video id="myVideo" src="https://www.aj-beef.com/videos/steak_cook1.mp4"  controls></video>
 </view>
