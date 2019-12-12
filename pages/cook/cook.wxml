@@ -21,7 +21,7 @@
 
   <view class="page-section">
       <view class="page-section-title">
-        <text>牛排做法</text><text style="font-size:24rpx;color:#888;">（ 仅供参考）</text>
+        <text>牛排做法</text>
       </view>
       <view class="desp">
       辅料：口蘑、花瓜、生菜、鸡蛋
@@ -52,7 +52,7 @@
 
 
 </view>
-<view style="padding:10px;font-size:18px;font-weight:bold;color:#e6aa86;margin-bottom:10px;">欧洲厨师正宗煎牛排方法</view>
+<view style="padding:10px;font-size:18px;font-weight:bold;color:#e6aa86;margin-bottom:10px;text-align:center;">欧洲厨师正宗煎牛排方法</view>
 <view class="section sp">
   <video id="myVideo" src="https://www.aj-beef.com/videos/steak_cook1.mp4"  controls></video>
 </view>

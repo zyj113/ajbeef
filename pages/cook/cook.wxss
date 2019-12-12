@@ -8,6 +8,8 @@ page{
 
 .page-section-title{
   margin-top:10px;
+  text-align:center;
+  margin-bottom:8px;
 }
 
 .page-section-title text{
