@@ -9,7 +9,7 @@
 <view class="modal-dialog" wx:if="{{showModal}}">
   <view class="modal-title">领取红包</view>
   <view class="modal-content">
-    <view class="modal-desp">20-50元随机红包，使用无门槛</view>
+    <view class="modal-desp">30元新年红包，使用无门槛</view>
     <view class="modal-input">
       <input placeholder-class="input-holder" type="number" maxlength="11" bindinput="inputChange" class="input" placeholder="请输入收货手机号"></input>
     </view>

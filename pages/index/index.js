@@ -6,12 +6,61 @@ Page({
   data: {
     showModal: false,
     inputPhone:'',
-
+    uid:''
   },
-  onLoad:function(){
+  onLoad: function (options){
      wx.showLoading({
        title: '加载中',
      })
+
+    /* 判断分享是否第一次 */
+    let from_uid = options.uid || '0'
+    let local = wx.getStorageSync('uid')
+    let thisobj = this
+    if (!local) {
+      
+       wx.login({
+        success(res) {
+          if (res.code) {
+            //发起网络请求
+            wx.request({
+              url: 'https://www.aj-beef.com/api/get_openid.html',
+              data: {
+                code: res.code
+              },
+              success: function (e) {
+                let openid = e.data.openid
+                thisobj.setData({uid:openid})
+                if (e.data.code == 0)
+                {
+                      wx.setStorageSync('uid', e.data.openid)                  
+                      wx.request({
+                        url: 'https://www.aj-beef.com/api/deal.html',
+                        method: 'POST',
+                        header: {
+                          'content-type': 'application/x-www-form-urlencoded'
+                        },
+                        data: {
+                          uid: openid,
+                          from_uid: from_uid,
+                          act: 'in_new'
+                        },
+                        success: function (e) {
+                         
+                        }
+                      })
+                  
+                } 
+              }
+            })
+          } else {
+            console.log('登录失败！' + res.errMsg)
+          }
+        }
+      }) 
+
+    }
+
   },
   onReady:function(){
     wx.hideLoading()
@@ -41,7 +90,7 @@ Page({
     this.hideModal();
   },
   /**
-   * 对话框确认按钮点击事件
+   * 领取红包
    */
   onConfirm: function () {
      let phone = this.data.inputPhone
@@ -71,7 +120,8 @@ Page({
          },
          data: {
            act: 'get_hb',
-           phone: phone
+           phone: phone,
+           uid:thisobj.data.uid
          },
          success: function (e) {
            
@@ -109,7 +159,8 @@ Page({
   onShareAppMessage: function () {
     return {
       title: '西兰澳佳-进口原切牛排',
-      desc: '新用户可领最高50元红包，使用无门槛'
+      desc: '新用户可领30元新年红包，使用无门槛。转发朋友购买，可返现10元。',
+      path: '/pages/index/index?uid='+this.data.uid
     }
 
   }
